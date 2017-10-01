@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	border: 0;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	outline: none;
@@ -443,3 +444,126 @@ footer #social-icons a {
 .icon-mail:before {
 	content: "\29";
 }
+
+.one-column {
+width: 8.333%;
+}
+.two-column {
+width: 16.666%;
+}
+.three-column {
+width: 24.999%;
+}
+.four-column {
+width: 33.332%;
+}
+.five-column {
+width: 41.665%;
+}
+.six-column {
+width: 49.998%;
+}
+.seven-column {
+width: 58.331%;
+}
+.eight-column {
+width: 66.664%;
+}
+.nine-column {
+width: 74.997%;
+}
+.ten-column {
+width: 83.33%;
+}
+.eleven-column {
+width: 91.663%;
+}
+.twelve-column {
+width: 100%;
+float: left;
+}
+
+@media only screen and (max-width: 768px) {
+#main-container {
+	width: 98%
+}
+#main {
+	background: #bbb;
+}
+#main-top-section, #main-bottom-section {
+	width: 50%;
+	float: left;
+}
+#main-top-section {
+	height: 100%;
+}
+#video-container, #map-container, #charts-container {
+	float: none;
+	width: 100%;
+	padding-bottom: 70%;
+}
+}
+
+@media only screen and (max-width: 640px) {
+#main-top-section, #main-bottom-section {
+	width: 100%;
+	float: none;
+}
+#main-top-section {
+	height: 400px;
+}
+#video, #map, #charts {
+	height: 60%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.breakpoint-480 .cell {
+	float: none;
+	width: 100%;
+	padding-bottom: 0.5em
+}
+#logo {
+	padding-bottom: 11em
+}
+nav ul li {
+	float: none;
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 0.5%;
+}
+#main-top-section {
+	background: url(../img/bg-2.png) no-repeat 20% bottom;
+}
+.donate-button {
+	width: 14em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.donate-button-header {
+	font-size: 1.1em;
+}
+.donate-2nd-line {
+	font-size: 0.9em;
+}
+#donate-later-link {
+	display: block;
+	width: 11em;
+	margin-left: auto;
+	margin-right: auto;
+}
+#make-payment p {
+	width: 100%;
+}
+#donation-amount.five-column {
+	width: 50%
+}
+#donor-info.six-column {
+	width: 50%
+}
+#donate-form-container select, input[type=text], input[type=email] {
+	width: 90%;
+}
+}
+
+
